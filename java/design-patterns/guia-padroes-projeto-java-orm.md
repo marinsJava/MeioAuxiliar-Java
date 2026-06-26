@@ -307,20 +307,6 @@ public class Documento implements Cloneable {
 
 > 💡 Cuidado: **nunca** use `clone()` ingênuo em entidades gerenciadas. Você arrasta o `@Id` e o estado da *persistence context*. O padrão correto é um construtor de cópia ou um *mapper* (MapStruct) que copia só os dados de negócio.
 
-
-### Tabela de decisão — quando usar (e quando não usar) padrões criacionais
- 
-| Sintoma / problema concreto | Padrão indicado | Quando **NÃO** usar |
-|---|---|---|
-| O construtor tem muitos parâmetros, vários opcionais, e fica ilegível; ou você quer um objeto imutável montado passo a passo | **Builder** | Objeto com 2–3 campos simples → `new` direto é mais claro |
-| A classe concreta a instanciar só é conhecida em runtime (depende de configuração, tipo de entrada, ambiente) | **Factory Method** | Você sempre instancia a mesma classe → a factory é cerimônia vazia |
-| Precisa criar **famílias** de objetos relacionados que devem ser coerentes entre si (ex.: todos do mesmo provedor/tema) | **Abstract Factory** | Só existe uma família, ou os objetos não se relacionam → exagero |
-| Ter mais de uma instância seria de fato um problema (cache compartilhado, pool, registro central) | **Singleton** — e, em apps Spring, **deixe o container fazer** (bean singleton) | Em projeto Spring, evite `getInstance()` manual; prefira um bean. Fora disso, raramente justifica o acoplamento global |
-| Criar do zero é caro/complexo e copiar um molde pré-configurado sai mais barato | **Prototype** | Criação já é barata → copiar só adiciona risco (cópia rasa vs. profunda) |
-| Nenhum dos acima — o objeto se cria de forma clara e direta | **Nenhum padrão: use `new`** | — |
- 
-> A linha mais importante é a última. Antes de aplicar qualquer padrão criacional, faça o teste mental: *"se eu usar `new` aqui, o que dá errado?"*. Se a resposta for "nada, fica claro e funciona", nenhum padrão é necessário.
- 
 ---
 
 ## Parte 2 — Padrões Estruturais

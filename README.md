@@ -31,11 +31,21 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 
 ---
 
+## 🛠️ Ferramentas & Infraestrutura
+
+| Guia | Descrição |
+|---|---|
+| [Docker](ferramentas/docker/guia-definitivo-docker.md) | Containers do zero ao deploy: imagens, Dockerfile multi-stage para Spring Boot, volumes, redes e Docker Compose com PostgreSQL. |
+| [Kubernetes](ferramentas/kubernetes/guia-definitivo-kubernetes.md) | Orquestração: arquitetura do cluster, objetos fundamentais, kubectl, deploy de Spring Boot, probes com Actuator, HPA e Helm. |
+
+## 🗄️ Bancos de Dados
+
+| Guia | Descrição |
+|---|---|
+| [PostgreSQL](bancos-de-dados/postgresql/guia-definitivo-postgresql.md) | Do básico ao profissional: tipos (JSONB, UUID), índices, EXPLAIN, integração com Spring Boot/JPA, Flyway e backup. |
+
 ## 🐍 Python
 *(em construção)*
-
-## 🛠️ Ferramentas
-*(Docker, Git, WSL2 — em construção)*
 
 ## 💡 Conceitos (agnósticos de linguagem)
 *(SOLID, algoritmos, estruturas de dados — em construção)*
