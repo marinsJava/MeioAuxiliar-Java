@@ -18,6 +18,7 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 |---|---|
 | [Configuração do Spring Security](java/spring-security/guia-configuracao-spring-security.md) | A fundação: cadeia de filtros, SecurityFilterChain com Lambda DSL (SS7), autorização por requisição e por método, codificação de senhas, UserDetailsService, CSRF, CORS e testes. |
 | [Login e Cadastro com OAuth 2.0 / OpenID Connect](java/spring-security/guia-login-cadastro-oauth2-oidc.md) | Autenticação moderna com Spring Boot 4.1 + Spring Security 7: fluxo Authorization Code + PKCE, login social, provisionamento de usuário (JIT) e proteção de API com JWT. |
+| [Autenticação JWT Stateless (prático)](java/spring-security/guia-jwt-na-pratica.md) | Implementação completa de login com JWT feito à mão (jjwt 0.12.6): os dois fluxos, JwtService, JwtAuthenticationFilter, AuthenticationManager, CORS/preflight e Swagger com Authorize. |
 
 ### Arquitetura & Organização
 | Guia | Descrição |
