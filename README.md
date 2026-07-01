@@ -26,7 +26,9 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 | [Estrutura de Arquivos em Projetos Java](java/arquitetura/guia-estrutura-de-arquivos.md) | Convenções Maven/Gradle, Package by Layer vs. Package by Feature, arquitetura Hexagonal/Clean e nomenclatura. |
 
 ### Spring Boot
-*(em construção)*
+| Guia | Descrição |
+|---|---|
+| [Tratamento de Exceptions](java/spring-boot/guia-tratamento-de-exceptions.md) | Prático: exceptions customizadas enxutas, GlobalExceptionHandler com @RestControllerAdvice + ProblemDetail, validação, erros de segurança, tabela de referência (exception → status) e checklist. |
 
 ### Clean Code
 *(em construção)*
