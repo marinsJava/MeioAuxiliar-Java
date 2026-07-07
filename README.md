@@ -41,12 +41,15 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 |---|---|
 | [Docker](ferramentas/docker/guia-definitivo-docker.md) | Containers do zero ao deploy: imagens, Dockerfile multi-stage para Spring Boot, volumes, redes e Docker Compose com PostgreSQL. |
 | [Kubernetes](ferramentas/kubernetes/guia-definitivo-kubernetes.md) | Orquestração: arquitetura do cluster, objetos fundamentais, kubectl, deploy de Spring Boot, probes com Actuator, HPA e Helm. |
+| [Postman](ferramentas/postman/guia-definitivo-postman.md) | Testando APIs: coleções, variáveis/environments, captura automática de token JWT, testes com `pm.test`, Collection Runner, import de OpenAPI e Newman no CI. |
+| [Swagger / OpenAPI](ferramentas/swagger/guia-definitivo-swagger.md) | Documentação que se gera do código com springdoc 3.x (Spring Boot 4): anotações, metadados, botão Authorize (JWT), validação como doc e cuidados em produção. |
 
 ## 🗄️ Bancos de Dados
 
 | Guia | Descrição |
 |---|---|
 | [PostgreSQL](bancos-de-dados/postgresql/guia-definitivo-postgresql.md) | Do básico ao profissional: tipos (JSONB, UUID), índices, EXPLAIN, integração com Spring Boot/JPA, Flyway e backup. |
+| [Flyway (migrations)](bancos-de-dados/flyway/guia-definitivo-flyway.md) | Versionamento de schema: como funciona (histórico + checksum), seed por chave natural, migrations repetíveis, o erro de checksum e como recuperar em dev vs. produção. |
 
 ## 🐍 Python
 *(em construção)*

@@ -124,11 +124,11 @@ eyJhbGciOiJIUzI1NiJ9 . eyJzdWIiOiJtYXRoZXVzIiwiZXhwIjoxNz...} . dBjftJeZ4CVP-mB9
     <scope>runtime</scope>
 </dependency>
 
-<!-- Swagger / documentação OpenAPI -->
+<!-- Swagger / documentação OpenAPI (linha 3.x é a compatível com Spring Boot 4) -->
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-    <version>2.8.6</version>
+    <version>3.0.3</version>
 </dependency>
 ```
 
