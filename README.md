@@ -43,6 +43,7 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 | [Kubernetes](ferramentas/kubernetes/guia-definitivo-kubernetes.md) | Orquestração: arquitetura do cluster, objetos fundamentais, kubectl, deploy de Spring Boot, probes com Actuator, HPA e Helm. |
 | [Postman](ferramentas/postman/guia-definitivo-postman.md) | Testando APIs: coleções, variáveis/environments, captura automática de token JWT, testes com `pm.test`, Collection Runner, import de OpenAPI e Newman no CI. |
 | [Swagger / OpenAPI](ferramentas/swagger/guia-definitivo-swagger.md) | Documentação que se gera do código com springdoc 3.x (Spring Boot 4): anotações, metadados, botão Authorize (JWT), validação como doc e cuidados em produção. |
+| [Git](ferramentas/git/git-completo.md) | Controle de versão completo: as três áreas, branches, merge vs. rebase, desfazendo com segurança (reset/revert/reflog), Conventional Commits, GitHub Flow vs. Git Flow e troubleshooting de emergências. |
 
 ## 🗄️ Bancos de Dados
 
