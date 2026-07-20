@@ -40,6 +40,12 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 
 ---
 
+## 🔧 Controle de Versão
+
+| Guia | Descrição |
+|---|---|
+| [Git (guia completo)](ferramentas/git/git-completo.md) | Dos conceitos ao fluxo profissional: as três áreas, branches, merge/rebase, remotos e GitHub, desfazer (reset/reflog), stash, tags, .gitignore, Conventional Commits, GitHub Flow/Git Flow, Pull Requests, troubleshooting e cheat sheet. |
+
 ## 🛠️ Ferramentas & Infraestrutura
 
 | Guia | Descrição |
