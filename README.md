@@ -30,6 +30,11 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 |---|---|
 | [Tratamento de Exceptions](java/spring-boot/guia-tratamento-de-exceptions.md) | Prático: exceptions customizadas enxutas, GlobalExceptionHandler com @RestControllerAdvice + ProblemDetail, validação, erros de segurança, tabela de referência (exception → status) e checklist. |
 
+### Testes
+| Guia | Descrição |
+|---|---|
+| [JUnit (testes em Java)](java/testes/guia-definitivo-junit.md) | Prático e completo: JUnit 6, AssertJ, testes parametrizados, Mockito, a pirâmide de testes, slices (@WebMvcTest/@DataJpaTest), @MockitoBean, testes de segurança, Testcontainers e JaCoCo. |
+
 ### Clean Code
 *(em construção)*
 
@@ -43,7 +48,6 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 | [Kubernetes](ferramentas/kubernetes/guia-definitivo-kubernetes.md) | Orquestração: arquitetura do cluster, objetos fundamentais, kubectl, deploy de Spring Boot, probes com Actuator, HPA e Helm. |
 | [Postman](ferramentas/postman/guia-definitivo-postman.md) | Testando APIs: coleções, variáveis/environments, captura automática de token JWT, testes com `pm.test`, Collection Runner, import de OpenAPI e Newman no CI. |
 | [Swagger / OpenAPI](ferramentas/swagger/guia-definitivo-swagger.md) | Documentação que se gera do código com springdoc 3.x (Spring Boot 4): anotações, metadados, botão Authorize (JWT), validação como doc e cuidados em produção. |
-| [Git](ferramentas/git/git-completo.md) | Controle de versão completo: as três áreas, branches, merge vs. rebase, desfazendo com segurança (reset/revert/reflog), Conventional Commits, GitHub Flow vs. Git Flow e troubleshooting de emergências. |
 
 ## 🗄️ Bancos de Dados
 
