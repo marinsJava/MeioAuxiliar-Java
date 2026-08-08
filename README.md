@@ -30,6 +30,11 @@ Coletânea curada de guias, referências e materiais de apoio para desenvolvimen
 |---|---|
 | [Tratamento de Exceptions](java/spring-boot/guia-tratamento-de-exceptions.md) | Prático: exceptions customizadas enxutas, GlobalExceptionHandler com @RestControllerAdvice + ProblemDetail, validação, erros de segurança, tabela de referência (exception → status) e checklist. |
 
+### JPA & Hibernate
+| Guia | Descrição |
+|---|---|
+| [Mapeamento de Relacionamentos](java/jpa/guia-mapeamento-relacionamentos-jpa.md) | Todas as anotações de relacionamento (`@ManyToOne`, `@OneToMany`, `@OneToOne`, `@ManyToMany`): dono vs. inverso, fetch, cascade, entidade de junção, o problema N+1 com soluções, equals/hashCode em entidades, tabela de decisão e 10 armadilhas comuns. |
+
 ### Testes
 | Guia | Descrição |
 |---|---|
